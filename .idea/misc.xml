@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/combat_custom_text_view.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/dialog_custom.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_adventure.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_arrow_left.xml" value="0.40208333333333335" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_arrow_right.xml" value="0.40208333333333335" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_back.xml" value="0.40208333333333335" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_blue.xml" value="0.8" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_circle.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_circle_border.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_diamond.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_pause.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_play.xml" value="0.849609375" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_quit.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_settings.xml" value="0.40208333333333335" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/ic_skip.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/drawable/toast_custom.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_adventure_view.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_choice_event.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_choice_event_view.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_combat_event.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_combat_event_view.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_conversation_event_view.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_cutscene_event_view.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_end_game.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_main_menu.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_start_adventure.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_story_event_view.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/activity_transition_event_view.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/dialog_party_select.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/dialog_pause_menu.xml" value="0.4" />
+        <entry key="..\:/Users/Guy Oz/AndroidStudioProjects/project2_rev1/app/src/main/res/layout/toast_messege.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

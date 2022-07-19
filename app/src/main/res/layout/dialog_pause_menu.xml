@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menus.MainMenu"
+    android:background="@color/dark_green">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:paddingVertical="60dp"
+        android:paddingHorizontal="25dp">
+
+        <Button
+            android:id="@+id/btnResume_pauseDialog"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/dark_brown2"
+            android:fontFamily="sans-serif-black"
+            android:text="resume"
+            android:textColor="@color/light_brown"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            app:cornerRadius="20dp"
+            android:drawableLeft="@drawable/ic_play" />
+
+        <Button
+            android:id="@+id/btnSettings_pauseDialog"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/dark_brown2"
+            android:fontFamily="sans-serif-black"
+            android:text="settings"
+            android:textColor="@color/light_brown"
+            android:textSize="30dp"
+            app:cornerRadius="20dp"
+            android:drawableLeft="@drawable/ic_settings" />
+
+        <Button
+            android:id="@+id/btnQuit_pauseDialog"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/dark_brown2"
+            android:text="quit"
+            android:textColor="@color/light_brown"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-black"
+            app:cornerRadius="20dp"
+            android:drawableLeft="@drawable/ic_quit"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

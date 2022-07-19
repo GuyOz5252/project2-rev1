@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menus.MainMenu"
+    android:background="@color/dark_green">
+
+    <TextView
+        android:id="@+id/btnSettings_startGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_settings" />
+
+    <TextView
+        android:id="@+id/btnBack_startGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_back" />
+
+    <ImageView
+        android:id="@+id/imvVisual_startGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnBack_startGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="600dp"
+        android:maxHeight="240dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/placeholder_visual" />
+
+    <TextView
+        android:id="@+id/txtAdvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="325dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/light_brown"
+        android:text="adventure name"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/btnPlay_startGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imvPrevAdv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="5dp"
+            android:background="@color/dark_brown"
+            android:adjustViewBounds="true"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp"
+            android:scaleType="fitCenter"
+            android:alpha="0.5"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/btnPrev_startGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_arrow_left" />
+
+        <ImageView
+            android:id="@+id/imvCurrentAdv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="5dp"
+            android:background="@color/dark_brown"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/btnNext_startGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_arrow_right" />
+
+        <ImageView
+            android:id="@+id/imvNextAdv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="5dp"
+            android:background="@color/dark_brown"
+            android:adjustViewBounds="true"
+            android:maxWidth="75dp"
+            android:maxHeight="75dp"
+            android:scaleType="fitCenter"
+            android:alpha="0.5"
+            android:src="@drawable/ic_launcher_background" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPlay_startGame"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/dark_brown2"
+        android:drawableLeft="@drawable/ic_adventure"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:text="start adventure"
+        android:textColor="@color/light_brown"
+        android:textSize="30dp"
+        app:cornerRadius="20dp" />
+
+</RelativeLayout>

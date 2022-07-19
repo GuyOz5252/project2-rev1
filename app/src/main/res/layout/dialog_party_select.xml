@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menus.MainMenu"
+    android:background="@color/dark_green">
+
+    <TextView
+        android:id="@+id/txtParty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="YOUR PARTY"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/light_brown"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/lnParty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtParty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_custom"
+        android:backgroundTint="@color/dark_brown2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtPartySelectTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnParty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Pick Your Party of Three!"
+        android:textColor="@color/light_brown"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/ln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPartySelectTitle"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_custom"
+        android:backgroundTint="@color/dark_brown2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/lnPartySelectDeck1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnPartySelectDeck2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnContinue_combatEventPartySelectDialog"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ln"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/dark_brown2"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:text="continue"
+        android:textColor="@color/light_brown"
+        android:textSize="30dp"
+        app:cornerRadius="20dp" />
+
+</RelativeLayout>

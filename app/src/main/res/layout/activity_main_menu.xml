@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menus.MainMenu"
+    android:background="@color/dark_green">
+
+    <TextView
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_settings" />
+
+    <TextView
+        android:id="@+id/imvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:fontFamily="sans-serif-black"
+        android:text="project \n---"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/light_brown"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnOlderAdventures"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ic_circle_border" />
+
+    <TextView
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnOlderAdventures"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/ic_circle"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="start new \nadventure"
+        android:textAlignment="gravity"
+        android:textAllCaps="true"
+        android:textColor="@color/light_brown"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnOlderAdventures"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnFriends"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/dark_brown2"
+        android:fontFamily="sans-serif-black"
+        android:text="older adventures"
+        android:textColor="@color/light_brown"
+        android:textSize="20dp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnFriends"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp"
+        android:backgroundTint="@color/dark_brown2"
+        android:text="friends"
+        android:textColor="@color/light_brown"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-black"
+        app:cornerRadius="20dp" />
+
+</RelativeLayout>
