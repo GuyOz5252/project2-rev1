@@ -47,7 +47,7 @@ public class AdventureView extends AppCompatActivity implements View.OnTouchList
 
     private AdventureController adventureController;
 
-    private TextView btnPause, animRect, sfsfsfsfsfs;
+    private TextView btnPause, animRect;
 
     // choice
     private ImageView[] imvVisuals;
