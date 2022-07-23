@@ -36,7 +36,9 @@ import com.example.project2_rev1.utils.TypeWriter;
 import java.util.ArrayList;
 
 /**
- * @author Guy Oz 
+ * @author Guy Oz
+ *
+ * commm
  */
 
 @SuppressWarnings("all")
