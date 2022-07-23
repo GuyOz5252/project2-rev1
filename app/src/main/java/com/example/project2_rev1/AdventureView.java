@@ -37,8 +37,6 @@ import java.util.ArrayList;
 
 /**
  * @author Guy Oz
- *
- *
  */
 
 @SuppressWarnings("all")
